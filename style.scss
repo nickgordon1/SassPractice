@@ -1,0 +1,62 @@
+$font1: "Source Sans Pro";
+$font1bold: "Source Sans Pro", uppercase, bold;
+$font2: "Droid Seriff";
+$font2italic: "Droid Seriff", italic;
+$white: #f7f7f7;
+$grey: #787878;
+$green: #acd373;
+
+nav { 
+  background-color: $green;
+  height: 106px;
+  line-height: 106px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.6);
+  position: relative;
+  z-index: 1;
+  
+  img {
+    vertical-align: middle;
+  }
+  a {
+    font: $font1bold;
+    font-size: 18px;
+    color: $white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 14px;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+.right {
+  float: right;
+}
+header {
+  text-align: center;
+  height: 700px;
+  background-color: #9abd67;
+  background-image: url("images/skyline.png");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  h1 {
+    padding-top: 230px;
+    color: $white;
+    font-size: 48px;
+    font: $font1bold;
+  }
+  h2 {
+    margin-top: 30px;
+    font-size: 24px;
+    font: $font2italic;
+    color: $white;
+  }
+  a{
+    margin-top: 132px;
+    display: block;
+  }
+}
